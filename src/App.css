@@ -1,38 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+html {
+  font-family: "VT323", monospace;
+  background-image: url('https://media3.giphy.com/media/zW0n7AIWG4ka4/giphy.gif?cid=ecf05e47gc2ugtibegbcsu83ququ6r58s2e1jicxjxv9x7ca&rid=giphy.gif&ct=g');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
 .App {
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 80vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: "VT323", monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: auto;;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button {
+  font-family: "VT323", monospace;
+  background: black;
+  border-bottom: 6px inset rgba(0, 0, 0, 0.5);
+  border-left: 6px inset rgba(0, 0, 0, 0.5);
+  border-right: 6px inset rgba(255, 255, 255, 0.5);
+  border-top: 6px inset rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 1rem;
+  min-width: 100px;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  width: auto;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    zoom: 0.9;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    zoom: 0.8;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    zoom: 0.7;
+
   }
 }
