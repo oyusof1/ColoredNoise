@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ColoredNoise/static/css/main.a13414b4.css",
+    "main.js": "/ColoredNoise/static/js/main.22282dde.js",
+    "static/js/787.1ed0c42c.chunk.js": "/ColoredNoise/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cube.gif": "/ColoredNoise/static/media/cube.153f5328bd60d9c5db2f.gif",
+    "static/media/glitch.gif": "/ColoredNoise/static/media/glitch.cf88ee01f4c3221f421f.gif",
+    "static/media/spin.gif": "/ColoredNoise/static/media/spin.c4985d92327fe4a326ad.gif",
+    "index.html": "/ColoredNoise/index.html",
+    "main.a13414b4.css.map": "/ColoredNoise/static/css/main.a13414b4.css.map",
+    "main.22282dde.js.map": "/ColoredNoise/static/js/main.22282dde.js.map",
+    "787.1ed0c42c.chunk.js.map": "/ColoredNoise/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a13414b4.css",
+    "static/js/main.22282dde.js"
+  ]
+}
