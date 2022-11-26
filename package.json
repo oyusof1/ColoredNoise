@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "colored-noise",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://oyusof1.github.io/ColoredNoise",
+  "homepage": "http://colorednoise.co",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
