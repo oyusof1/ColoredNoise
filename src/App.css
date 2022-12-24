@@ -2,10 +2,18 @@
 
 html {
   font-family: "VT323", monospace;
-  background-image: url('https://media3.giphy.com/media/zW0n7AIWG4ka4/giphy.gif?cid=ecf05e47gc2ugtibegbcsu83ququ6r58s2e1jicxjxv9x7ca&rid=giphy.gif&ct=g');
+  /* background-image: url("https://media3.giphy.com/media/zW0n7AIWG4ka4/giphy.gif?cid=ecf05e47gc2ugtibegbcsu83ququ6r58s2e1jicxjxv9x7ca&rid=giphy.gif&ct=g"); */
+  /* background-image: url("https://64.media.tumblr.com/e17fd7e558d081070b5dd4e19193d165/tumblr_pvl5j3H1r81qeyvpto1_500.gifv"); */
   background-position: center;
   background-size: cover;
-  overflow: hidden;;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: "VT323", monospace;
+  background-image: url("https://64.media.tumblr.com/e17fd7e558d081070b5dd4e19193d165/tumblr_pvl5j3H1r81qeyvpto1_500.gifv");
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
@@ -31,7 +39,7 @@ h1 {
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin: auto;;
+  margin: auto;
 }
 
 .buttons {
@@ -59,9 +67,87 @@ button {
   width: auto;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-width: 2px;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+}
+
+.name {
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+.cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.icon {
+  width: 30px;
+  padding: 10px;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+iframe {
+  width: 50%;
+  margin: auto;
+  border: none;
+}
+
+.music-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 400px) {
+  iframe {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   body {
     zoom: 0.9;
+  }
+  iframe {
+    width: 100%;
+    overflow: hidden;
   }
 }
 
@@ -69,11 +155,16 @@ button {
   body {
     zoom: 0.8;
   }
+  iframe {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 300px) {
   body {
     zoom: 0.7;
-
+  }
+  iframe {
+    width: 100%;
   }
 }
