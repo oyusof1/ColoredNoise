@@ -1,4 +1,3 @@
-
 import cube from '../assets/cube.gif';
 import spin from '../assets/spin.gif';
 import glitch from '../assets/glitch.gif';
